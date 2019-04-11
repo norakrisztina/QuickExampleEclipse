@@ -2,6 +2,6 @@
  * 
  */
 
-function say_hello(name){
-	return "Hello ".concat(name, "!");
+function say_hello(name, lastname){
+	return "Hi ".concat(name, " ", lastname, "!");
 }
